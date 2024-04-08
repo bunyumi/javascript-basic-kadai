@@ -8,12 +8,14 @@ const holidays = [
 let i = 0;
 
 
-console.log(holidays);
+//0-15 まで繰り返すには
+//(カウンタ変数の初期値；繰り返す条件；増分値)
 
 
-for (let holidays = 1; holidays <= 16; holidays++) {
-  console.log(holidays);
+for (let i = 0; i<=15; i++) {
+  console.log(i);
 }
+//このforループは0から15まで出力する
 
 
 while (i < holidays.length) {
